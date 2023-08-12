@@ -11,11 +11,12 @@ body {
 
 .nav-bar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #0062be;
     font-family: Arial;
     display: flex;
     flex-direction: row;
     align-items: center;
+    transition: 0.5s;
 }
 
 .nav-bar img.logo {
@@ -69,7 +70,7 @@ img.icon {
 }
 
 .nav-bar a:hover, .dropdown:hover .dropbtn {
-    color: blue;
+    color: orange;
     cursor: pointer;
 }
 
@@ -175,7 +176,6 @@ img.icon {
 .content .text-box a:hover {
     background-color: #d93030;
     color: white;
-    border: 1px solid white;
 }
 
 .content .img-box {
