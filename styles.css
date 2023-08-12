@@ -1,6 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0062be;
+    transition: 0.5s;
 }
 
 .nav-bar {
@@ -15,6 +21,7 @@
 .nav-bar img.logo {
     width: 60px;
     height: 60px;
+    margin-left: 50px;
 }
 
 .nav-bar li {
@@ -103,7 +110,6 @@ img.icon {
     text-decoration: none;
     display: block;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -121,4 +127,109 @@ img.icon {
     content: "";
     display: table;
     clear: both;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: inherit;
+}
+
+.content .text-box {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .text-box h2 {
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: 900;
+}
+
+.content .text-box h2 span {
+    font-size: 1.8em;
+}
+
+.content .text-box p {
+    color: white;
+}
+
+.content .text-box a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: white;
+    color: #0062be;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content .text-box a:hover {
+    background-color: #d93030;
+    color: white;
+    border: 1px solid white;
+}
+
+.content .img-box {
+    width: 500px;
+    display: flex;
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+    transform: translateY(-15px);
+}
+
+.thumb li img {
+    max-width: 40px;
+}
+
+.social-icon {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: inline-block;
+    filter: invert(1);
+    margin: 0 20px;
+    transform: scale(0.7);
+    transition: 0.5s;
+}
+
+.social-icon li a:hover {
+    transform: scale(1.2);
 }
