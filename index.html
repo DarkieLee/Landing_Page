@@ -19,63 +19,64 @@
                 </button>
                 <div class="dropdown-content">
                     <div class="row">
-                      <div class="column">
-                        <h3 class="column-title" style="color: red;">
-                            <img src="./images/hot-icon.png" alt="hot-icon" class="icon">
-                            HOT
-                            <img src="./images/hot-icon.png" alt="hot-icon" class="icon">
-                        </h3>
-                        <a href="#">Pepsi
-                            <div>
-                                <img src="./images/pepsi001.png" alt="pepsi001" class="product-img">
-                            </div>
-                        </a>
-                        <a href="#">Pepsi Zero Sugar
-                            <div>
-                                <img src="./images/pepsi002.png" alt="pepsi001" class="product-img">
-                            </div>
-                        </a>
-                        <a href="#">Diet Pepsi
-                            <div>
-                                <img src="./images/pepsi003.png" alt="pepsi001" class="product-img">
-                            </div>
-                        </a>
-                      </div>
-                      <div class="column">
-                        <h3 class="column-title">New Arrival</h3>
-                        <a href="#">Nitro Pepsi Vanilla
-                            <div>
-                                <img src="./images/pepsi004.png" alt="pepsi001" class="product-img-long">
-                            </div>
-                        </a>
-                        <a href="#">Nitro Pepsi
-                            <div>
-                                <img src="./images/pepsi005.png" alt="pepsi001" class="product-img-long">
-                            </div>
-                        </a>
-                        <a href="#">Pepsi Mango
-                            <div>
-                                <img src="./images/pepsi006.png" alt="pepsi001" class="product-img">
-                            </div>
-                        </a>
-                      </div>
-                      <div class="column">
-                        <h3 class="column-title">More</h3>
-                        <a href="#">Pepsi Zero Sugar Mango
-                            <div>
-                                <img src="./images/pepsi007.png" alt="pepsi001" class="product-img">
-                            </div>
-                        </a>
-                        <a href="#">Pepsi Wild Cherry
-                            <div>
-                                <img src="./images/pepsi008.png" alt="pepsi001" class="product-img">
-                            </div>
-                        </a>
-                        <a href="#">Diet Pepsi Wild Cherry
-                            <div>
-                                <img src="./images/pepsi009.png" alt="pepsi001" class="product-img">
-                            </div>
-                        </a>
+                        <div class="column">
+                            <h3 class="column-title" style="color: red;">
+                                    HOT
+                                <!-- <img src="./images/hot-icon.png" alt="hot-icon" class="icon"> -->
+                            </h3>
+                            <a href="#">Pepsi
+                                <div>
+                                    <img src="./images/pepsi001.png" alt="pepsi001" class="product-img">
+                                </div>
+                            </a>
+                            <a href="#">Pepsi Zero Sugar
+                                <div>
+                                    <img src="./images/pepsi002.png" alt="pepsi001" class="product-img">
+                                </div>
+                            </a>
+                            <a href="#">Diet Pepsi
+                                <div>
+                                    <img src="./images/pepsi003.png" alt="pepsi001" class="product-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <h3 class="column-title">New Arrival</h3>
+                            <a href="#">Nitro Pepsi Vanilla
+                                <div>
+                                    <img src="./images/pepsi004.png" alt="pepsi001" class="product-img-long">
+                                </div>
+                            </a>
+                            <a href="#">Nitro Pepsi
+                                <div>
+                                    <img src="./images/pepsi005.png" alt="pepsi001" class="product-img-long">
+                                </div>
+                            </a>
+                            <a href="#">Pepsi Mango
+                                <div>
+                                    <img src="./images/pepsi006.png" alt="pepsi001" class="product-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <h3 class="column-title">More</h3>
+                            <a href="#">Pepsi Zero Sugar Mango
+                                <div>
+                                    <img src="./images/pepsi007.png" alt="pepsi001" class="product-img">
+                                </div>
+                            </a>
+                            <a href="#">Pepsi Wild Cherry
+                                <div>
+                                    <img src="./images/pepsi008.png" alt="pepsi001" class="product-img">
+                                </div>
+                            </a>
+                            <a href="#">Diet Pepsi Wild Cherry
+                                <div>
+                                    <img src="./images/pepsi009.png" alt="pepsi001" class="product-img">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </li>
             <li><a href="#">CONTACTS</a></li>
@@ -90,17 +91,19 @@
         <div class="img-box">
             <img src="./images/pepsi001.png" id="pepsi">
         </div>
+        <ul class="thumb">
+            <li><img src="./images/pepsi001.png" onclick="imgSlider('./images/pepsi001.png'); bgChanger('#0062be')"></li>
+            <li><img src="./images/pepsi002.png" onclick="imgSlider('./images/pepsi002.png'); bgChanger('#a61111')"></li>
+            <li><img src="./images/pepsi003.png" onclick="imgSlider('./images/pepsi003.png'); bgChanger('#333333')"></li>
+        </ul>
     </div>
-    <ul class="thumb">
-        <li><img src="./images/pepsi001.png" onclick="imgSlider('./images/pepsi001.png'); bgChanger('#0062be')"></li>
-        <li><img src="./images/pepsi002.png" onclick="imgSlider('./images/pepsi002.png'); bgChanger('#a61111')"></li>
-        <li><img src="./images/pepsi003.png" onclick="imgSlider('./images/pepsi003.png'); bgChanger('#333333')"></li>
-    </ul>
-    <ul class="social-icon">
-        <li><a href="#"><img src="./images/facebook.png"></a></li>
-        <li><a href="#"><img src="./images/instagram.png"></a></li>
-        <li><a href="#"><img src="./images/twitter.png"></a></li>
-    </ul>
+    <div>
+        <ul class="social-icon">
+            <li><a href="#"><img src="./images/facebook.png"></a></li>
+            <li><a href="#"><img src="./images/instagram.png"></a></li>
+            <li><a href="#"><img src="./images/twitter.png"></a></li>
+        </ul>
+    </div>
     <script type="text/javascript">
         function imgSlider(image) {
             document.getElementById("pepsi").src = image;
